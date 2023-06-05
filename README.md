@@ -9,7 +9,6 @@
   - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -148,9 +147,9 @@ You can deploy this project using:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/AleWaweru/My-Portfolio)
+- GitHub: [@githubhandle](https://github.com/AleWaweru/)
 - Twitter: [@twitterhandle](https://twitter.com/ngashalex)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alex-waweru-2b2701180/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alex-ng-ang-a-waweru-2b2701180/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,7 +202,7 @@ If you like this project you can leave a star to it.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/AleWaweru/Math-Magicians/blob/MIT.md) licensed.
+This project is [MIT](https://github.com/AleWaweru/Math-Magicians/blob/math-magician-setup/MIT.md) licensed.
 
 
 
