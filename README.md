@@ -202,7 +202,7 @@ If you like this project you can leave a star to it.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/AleWaweru/Math-Magicians/blob/Hit-the-API/MIT.md) licensed.
+This project is [MIT](https://github.com/AleWaweru/Math-Magicians/blob/math-magician-setup/MIT.md) licensed.
 
 
 
