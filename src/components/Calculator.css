@@ -1,0 +1,106 @@
+.calculator-body {
+  height: 14rem;
+  width: 100%;
+  margin-right: 5px;
+  box-shadow: 5px 5px 8px 8px gray;
+}
+
+.calc-result {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(155, 154, 154);
+  width: 99.8%;
+  height: 30px;
+  border: 1px solid rgb(228, 225, 225);
+}
+
+.calc-result span {
+  color: #fff;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.assign-operators {
+  justify-content: space-between;
+  width: 100%;
+  display: block;
+  height: 50px;
+  background-color: rgb(247, 240, 240);
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row {
+  display: flex;
+  width: 100%;
+  background-color: rgb(247, 240, 240);
+}
+
+.firth-row {
+  display: flex;
+  width: 100%;
+  margin-top: 6.4rem;
+  background-color: rgb(247, 240, 240);
+}
+
+.firth-row span {
+  border: 1px solid rgb(228, 225, 225);
+  width: 80%;
+  padding-left: 80px;
+  padding-top: 15px;
+}
+
+.assign-operators .first-row span {
+  gap: 3rem;
+  border: 1px solid rgb(228, 225, 225);
+  width: 80%;
+  padding-left: 80px;
+  padding-top: 15px;
+}
+
+.assign-operators .second-row span {
+  gap: 3rem;
+  border: 1px solid rgb(228, 225, 225);
+  width: 80%;
+  padding-left: 80px;
+  padding-top: 15px;
+}
+
+.assign-operators .third-row span {
+  gap: 3rem;
+  border: 1px solid rgb(228, 225, 225);
+  width: 80%;
+  padding-left: 80px;
+  padding-top: 15px;
+}
+
+.assign-operators .fourth-row span {
+  gap: 3rem;
+  border: 1px solid rgb(228, 225, 225);
+  width: 80%;
+  padding-left: 80px;
+  padding-top: 15px;
+}
+
+.special {
+  background-color: rgb(240, 153, 121);
+}
+
+#division {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.firth-row .dot-width {
+  max-width: 123px;
+  font-size: 20px;
+}
+
+.firth-row .special {
+  max-width: 123px;
+}
+
+.firth-row .zero-width {
+  padding-left: 12rem;
+}
