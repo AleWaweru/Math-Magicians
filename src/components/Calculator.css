@@ -1,5 +1,5 @@
 .calculator-body {
-  height: 14rem;
+  height: 19rem;
   width: 100%;
   margin-right: 5px;
   box-shadow: 5px 5px 8px 8px gray;
@@ -7,17 +7,21 @@
 
 .calc-result {
   display: flex;
-  justify-content: flex-end;
+  text-align: right;
   background-color: rgb(155, 154, 154);
-  width: 99.8%;
-  height: 30px;
+  width: 99.2%;
+  height: 50px;
+  color: #fff;
   border: 1px solid rgb(228, 225, 225);
+  font-size: 30px;
+  justify-content: flex-end;
+  letter-spacing: 1px;
+  padding-right: 5px;
 }
 
-.calc-result span {
-  color: #fff;
-  font-size: 20px;
-  padding-right: 5px;
+.calc-result input::placeholder {
+  color: white;
+  padding-top: 10px;
 }
 
 .assign-operators {
@@ -35,23 +39,25 @@
   display: flex;
   width: 100%;
   background-color: rgb(247, 240, 240);
+  height: 50px;
 }
 
 .firth-row {
   display: flex;
   width: 100%;
-  margin-top: 6.4rem;
+  margin-top: 9.5rem;
   background-color: rgb(247, 240, 240);
+  height: 50px;
 }
 
-.firth-row span {
+.firth-row button {
   border: 1px solid rgb(228, 225, 225);
   width: 80%;
   padding-left: 80px;
   padding-top: 15px;
 }
 
-.assign-operators .first-row span {
+.assign-operators .first-row button {
   gap: 3rem;
   border: 1px solid rgb(228, 225, 225);
   width: 80%;
@@ -59,7 +65,7 @@
   padding-top: 15px;
 }
 
-.assign-operators .second-row span {
+.assign-operators .second-row button {
   gap: 3rem;
   border: 1px solid rgb(228, 225, 225);
   width: 80%;
@@ -67,7 +73,7 @@
   padding-top: 15px;
 }
 
-.assign-operators .third-row span {
+.assign-operators .third-row button {
   gap: 3rem;
   border: 1px solid rgb(228, 225, 225);
   width: 80%;
@@ -75,7 +81,7 @@
   padding-top: 15px;
 }
 
-.assign-operators .fourth-row span {
+.assign-operators .fourth-row button {
   gap: 3rem;
   border: 1px solid rgb(228, 225, 225);
   width: 80%;
@@ -93,12 +99,12 @@
 }
 
 .firth-row .dot-width {
-  max-width: 123px;
+  max-width: 205px;
   font-size: 20px;
 }
 
 .firth-row .special {
-  max-width: 123px;
+  max-width: 205px;
 }
 
 .firth-row .zero-width {
