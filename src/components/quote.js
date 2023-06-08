@@ -12,7 +12,6 @@ const Quotes = () => {
       setIsLoading(true);
       try {
         const response = await fetch('https://api.api-ninjas.com/v1/quotes?limit=1&category=hope',
-
           {
             method: 'GET',
             headers: { 'X-Api-Key': urlKey },
