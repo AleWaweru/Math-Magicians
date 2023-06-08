@@ -9,10 +9,11 @@ const Quotes = () => {
     const fetchData = async () => {
       setIsLoading(true);
       try {
-        const response = await fetch('https://api.api-ninjas.com/v1/quotes?limit=1category=hope', {
-          method: 'GET',
-          headers: { 'X-Api-Key': '1huYYk+zqczgWbjc9JnDbw==v8vhqPo3lPwQJx8M' },
-        });
+        const response = await fetch('https://api.api-ninjas.com/v1/quotes?limit=1&category=hope',
+          {
+            method: 'GET',
+            headers: { 'X-Api-Key': '1huYYk+zqczgWbjc9JnDbw==v8vhqPo3lPwQJx8M' },
+          });
         const res = await response.json();
         setQuotes(res);
       } catch (error) {
