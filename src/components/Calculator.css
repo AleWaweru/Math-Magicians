@@ -9,7 +9,7 @@
   display: flex;
   text-align: right;
   background-color: rgb(155, 154, 154);
-  width: 99.2%;
+  max-width: 100%;
   height: 50px;
   color: #fff;
   border: 1px solid rgb(228, 225, 225);
@@ -22,6 +22,7 @@
 .calc-result input::placeholder {
   color: white;
   padding-top: 10px;
+  width: 100%;
 }
 
 .assign-operators {
@@ -44,7 +45,7 @@
 
 .firth-row {
   display: flex;
-  width: 100%;
+  max-width: 100%;
   margin-top: 9.5rem;
   background-color: rgb(247, 240, 240);
   height: 50px;
@@ -99,14 +100,20 @@
 }
 
 .firth-row .dot-width {
-  max-width: 205px;
+  max-width: 25%;
   font-size: 20px;
 }
 
 .firth-row .special {
-  max-width: 205px;
+  max-width: 25%;
 }
 
 .firth-row .zero-width {
   padding-left: 12rem;
+}
+
+.quotes-container {
+  border: 1px solid grey;
+  margin-top: 20px;
+  box-shadow: 5px 5px 8px 8px gray;
 }
