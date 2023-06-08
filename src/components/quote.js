@@ -5,14 +5,17 @@ const Quotes = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setHasError] = useState(false);
 
+  const urlKey = '1huYYk+zqczgWbjc9JnDbw==v8vhqPo3lPwQJx8M';
+
   useEffect(() => {
     const fetchData = async () => {
       setIsLoading(true);
       try {
         const response = await fetch('https://api.api-ninjas.com/v1/quotes?limit=1&category=hope',
+
           {
             method: 'GET',
-            headers: { 'X-Api-Key': '1huYYk+zqczgWbjc9JnDbw==v8vhqPo3lPwQJx8M' },
+            headers: { 'X-Api-Key': urlKey },
           });
         const res = await response.json();
         setQuotes(res);
