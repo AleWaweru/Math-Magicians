@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import Quotes from './quote';
 
 function CalcFun() {
   const [total, setTotal] = useState(null);
@@ -138,7 +137,7 @@ function CalcFun() {
           </button>
         </div>
       </div>
-      <Quotes />
+
     </>
   );
 }
