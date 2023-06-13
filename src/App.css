@@ -20,3 +20,13 @@
   color: brown;
   font-weight: bolder;
 }
+
+.calcStle {
+  display: flex;
+  max-width: 100%;
+}
+
+.calcStle h3 {
+  max-width: 100%;
+  margin-top: 50px;
+}
