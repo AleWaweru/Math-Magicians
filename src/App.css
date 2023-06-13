@@ -1,8 +1,22 @@
 
 .App {
-  width: 60%;
-
-  /* border: 2px solid black; */
+  width: 80%;
   margin-left: 10rem;
-  margin-top: 10rem;
+  margin-top: 2rem;
+}
+
+.quote {
+  margin-top: 150px;
+}
+
+.quote span {
+  font-size: 15px;
+  color: rgb(58, 57, 57);
+  font-weight: bolder;
+}
+
+.home h2 {
+  font-size: 20px;
+  color: brown;
+  font-weight: bolder;
 }
