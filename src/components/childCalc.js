@@ -16,7 +16,7 @@ function CalcFun() {
   return (
     <>
       <div className="calculator-body">
-        <div className="calc-result">
+        <div className="calc-result" data-testid="result">
           {total}
           {operation}
           {next}

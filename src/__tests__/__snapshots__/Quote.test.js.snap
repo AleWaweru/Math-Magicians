@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes renders a loading spinner when loading 1`] = `
+<div
+  className="quotes-container"
+>
+  <h1>
+    Quotes
+  </h1>
+  <ul />
+</div>
+`;
+
+exports[`Quotes renders a quote when quotes are available 1`] = `
+<div
+  className="quotes-container"
+>
+  <h1>
+    Quotes
+  </h1>
+  <ul />
+</div>
+`;
+
+exports[`Quotes renders an error message when an error occurs 1`] = `
+<div>
+  Loading ...
+</div>
+`;

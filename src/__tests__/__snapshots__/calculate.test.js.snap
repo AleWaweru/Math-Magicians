@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculate should update next number based on button name and calculator object with operation 1`] = `
+Object {
+  "next": "42",
+  "operation": "+",
+  "total": 3,
+}
+`;
+
+exports[`calculate should update next number if the button name is a decimal point 1`] = `
+Object {
+  "next": "4.",
+  "operation": "*",
+  "total": 2,
+}
+`;
