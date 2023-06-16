@@ -134,7 +134,8 @@ npx eslint .
 
 You can deploy this project using:
 
--github pages
+-Render
+- Render: [@Render](https://math-magician-rx0g.onrender.com/)
 
 
 
